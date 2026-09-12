@@ -1,0 +1,57 @@
+/* ── Personalización de Bootstrap 5 — El Sabor Chiapaneco ── */
+
+/* 1. Sobreescribir botones primarios con tono gastronómico (Naranja / Terracota) */
+.btn-primary {
+    background-color: #D35400;
+    border-color: #BA4A00;
+}
+.btn-primary:hover {
+    background-color: #A04000;
+    border-color: #7B241C;
+}
+
+/* 2. Sobreescribir botones outline */
+.btn-outline-primary {
+    color: #D35400;
+    border-color: #D35400;
+}
+.btn-outline-primary:hover {
+    background-color: #D35400;
+    border-color: #D35400;
+    color: #FFFFFF;
+}
+
+/* 3. Borde superior de contraste en Navbar */
+.navbar {
+    border-bottom: 4px solid #D35400;
+}
+
+/* 4. Estilo y fondo personalizado para la Sección Hero */
+.seccion-hero {
+    background: linear-gradient(135deg, #2C3E50 0%, #1A252F 100%);
+    color: #FFFFFF;
+}
+.seccion-hero h1 {
+    color: #F39C12;
+}
+.seccion-hero p {
+    color: #ECF0F1;
+}
+
+/* 5. Efecto Hover y redondeado en tarjetas de platillos */
+.card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Ajuste de imágenes en tarjetas */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
